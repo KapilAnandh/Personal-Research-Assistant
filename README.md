@@ -17,18 +17,18 @@ Produces a structured research report (JSON + Markdown)
 System Architecture
 
 Agents and Flow:
-```bash
-User Query
-   ↓
-Researcher Agent → arXiv + Crossref + RSS → Fetch Data
-   ↓
-Web Scraper → Clean Text → Indexer → Embeddings (Ollama)
-   ↓
-Chroma Vector Store → Retrieve Relevant Chunks
-   ↓
-Summarizer Agent → Generate JSON + Markdown Report
-   ↓
-Final Output (Saved Locally)
+      ```bash
+      User Query
+         ↓
+      Researcher Agent → arXiv + Crossref + RSS → Fetch Data
+         ↓
+      Web Scraper → Clean Text → Indexer → Embeddings (Ollama)
+         ↓
+      Chroma Vector Store → Retrieve Relevant Chunks
+         ↓
+      Summarizer Agent → Generate JSON + Markdown Report
+         ↓
+      Final Output (Saved Locally)
 ---
 
 ### Technologies Used:
