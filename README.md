@@ -17,7 +17,7 @@ Produces a structured research report (JSON + Markdown)
 System Architecture
 
 Agents and Flow:
-```
+      ```
       User Query
          ↓
       Researcher Agent → arXiv + Crossref + RSS → Fetch Data
@@ -29,7 +29,7 @@ Agents and Flow:
       Summarizer Agent → Generate JSON + Markdown Report
          ↓
       Final Output (Saved Locally)
----
+      ---
 
 ### Technologies Used:
 Python 3.10+
