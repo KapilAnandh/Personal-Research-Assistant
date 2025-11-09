@@ -1,0 +1,13 @@
+@"
+# Local Python venv
+pra_env/
+
+# Python cache
+**/__pycache__/
+
+# (optional) common local files you probably don't want in git
+.env
+*.log
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding utf8 ".gitignore"

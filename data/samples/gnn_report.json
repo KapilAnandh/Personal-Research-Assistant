@@ -1,0 +1,37 @@
+```json
+{
+  "query": "graph neural networks for recommender systems",
+  "date_utc": "2025-11-06T18:59:04+00:00",
+  "key_findings": [
+    "Scalable and Efficient Intra- and Inter-node Interconnection Networks for Post-Exascale Supercomputers and Data centers",
+    "Dark Energy Survey Year 3 results: Simulation-based $w$CDM inference from weak lensing and galaxy clustering maps with deep learning.",
+    "I. Analysis design",
+    "Analysis design"
+  ],
+  "evidence": [
+    {
+      "title": "Scaling and Efficiency of Intra- and Inter-node Interconnection Networks for Post-Exascale Supercomputers and Data centers",
+      "url": "http://arxiv.org/abs/2511.04681v1",
+      "published": "2025-11-06T18:59:04+00:00",
+      "support": "2025-11-06T18:59:04+00:00"
+    },
+    {
+      "title": "Dark Energy Survey Year 3 results: Simulation-based $w$CDM inference from weak lensing and galaxy clustering maps with deep learning",
+      "url": "http://arxiv.org/abs/2511.04681v1",
+      "published": "2025-11-06T18:59:59+00:00",
+      "support": "2025-11-06T18:59:04+00:00"
+    },
+    {
+      "title": "Tracking and Understanding Object Transformations",
+      "url": "http://arxiv.org/abs/2511.04678v1",
+      "published": "2025-11-06T18:59:30+00:00",
+      "support": "2025-11-06T18:59:30+00:00"
+    }
+  ],
+  "limitations": [
+    "The speed of the simulations is not yet sufficient to achieve the full theoretical capabilities of deep learning.",
+    "The robustness of the inference pipeline is still under investigation.",
+    "The scalability of the inference pipeline is still a challenge."
+  ]
+}
+```
