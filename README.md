@@ -17,7 +17,7 @@ Produces a structured research report (JSON + Markdown)
 System Architecture
 
 Agents and Flow:
-      ```bash
+```
       User Query
          ↓
       Researcher Agent → arXiv + Crossref + RSS → Fetch Data
