@@ -18,17 +18,17 @@ System Architecture
 
 Agents and Flow:
       ```
-      User Query
-         ↓
-      Researcher Agent → arXiv + Crossref + RSS → Fetch Data
-         ↓
-      Web Scraper → Clean Text → Indexer → Embeddings (Ollama)
-         ↓
-      Chroma Vector Store → Retrieve Relevant Chunks
-         ↓
-      Summarizer Agent → Generate JSON + Markdown Report
-         ↓
-      Final Output (Saved Locally)
+            User Query
+               ↓
+            Researcher Agent → arXiv + Crossref + RSS → Fetch Data
+               ↓
+            Web Scraper → Clean Text → Indexer → Embeddings (Ollama)
+               ↓
+            Chroma Vector Store → Retrieve Relevant Chunks
+               ↓
+            Summarizer Agent → Generate JSON + Markdown Report
+               ↓
+            Final Output (Saved Locally)
       ---
 
 ### Technologies Used:
@@ -46,32 +46,18 @@ cd personal-research-assistant
 
 2. Create a Virtual Environment
 python -m venv pra_env
-pra_env\Scripts\activate     # On Windows
-# or
-source pra_env/bin/activate  # On Linux/Mac
+pra_env\Scripts\activate
 
 3. Install Dependencies
 pip install -r requirements.txt
 
 4. Setup Ollama (Free & Local)
-
 Install Ollama from: https://ollama.ai/download
 Then pull the required models:
 ollama pull gemma3:270m
 ollama pull nomic-embed-text
 
-
-Confirm:
-ollama list
-
-
-You should see:
-
-gemma3:270m
-nomic-embed-text
-
 5. Environment Variables (.env)
-
 Edit .env :
 OLLAMA_HOST=http://127.0.0.1:11434
 GEN_MODEL=gemma3:270m
@@ -81,7 +67,6 @@ DATA_DIR=./data
 ### How to Run (CLI Mode)
 ## Generate a Research Report
 python src/main.py report "graph neural networks for recommender systems" --max-results 5 --days 180 --top-k 5 --out data/samples/gnn_report.json
-
 
 Flags Explained:
 Flag	Meaning
