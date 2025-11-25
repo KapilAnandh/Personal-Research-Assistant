@@ -101,5 +101,3 @@ Response Example:
   "query": "large language models in education",
   "report": "{\n  'key_findings': [...],\n  'evidence': [...]\n}"
 }
-
-Video Walkthrough Link : https://youtu.be/msvWoU8bwso
